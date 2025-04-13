@@ -1,116 +1,80 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "سلام",
+    "description": "👋 میرا نام حسن ہے۔\n میں React، Node.js، اور Vite جیسے جدید فریم ورکس کے ساتھ مکمل اسٹیک ایپس تیار کرتا ہوں۔ یہ میرا ڈیولپر پورٹ فولیو ہے جس میں ذاتی اور اشتراکی منصوبے شامل ہیں۔ بلا جھجک دریافت کریں اور جو پسند آئے انہیں ⭐ دیں!",
+    "section_name": {
+      "about": "میرے بارے میں",
+      "projects": "منصوبے",
+      "skills": "مہارتیں",
+      "experience": "تجربہ"
+    }
+  },
+  "projects": [
+    {
+      "title": "SongScore",
+      "startDate": "2024",
+      "description": "ایک مکمل اسٹیک میوزک ریٹنگ اور اندازہ لگانے والی ایپ جہاں صارفین دوسروں کی گانوں کی ریٹنگ کا اندازہ لگا سکتے ہیں۔ React اور Node.js سے تیار کی گئی۔",
+      "images": ["images/portfolio/song-score/p1.png"],
+      "url": "https://github.com/kertifyNu/SongScore",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-nodejs-plain", "name": "Node.js" },
+        { "class": "devicon-mongodb-plain", "name": "MongoDB" }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Planit: ڈیش بورڈ",
+      "startDate": "2024",
+      "description": "تنظیموں جیسے AIESEC کے لیے مکمل فعالیت والا ڈیش بورڈ، React، Express، اور MongoDB کے ساتھ تیار کیا گیا۔",
+      "images": ["images/portfolio/planit/p1.png"],
+      "url": "#",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-nodejs-plain", "name": "Node.js" },
+        { "class": "devicon-express-original", "name": "Express" },
+        { "class": "devicon-mongodb-plain", "name": "MongoDB" }
+      ]
+    },
+    {
+      "title": "P2P چیٹ باکس اور فائل شیئرنگ",
+      "startDate": "2024",
+      "description": "ایک پیئر ٹو پیئر چیٹ باکس اور فائل شیئرنگ ایپ جو React اور Node.js (peer.js اور socket.io) سے تیار کی گئی۔",
+      "images": ["images/portfolio/p2p-chat/p1.jpg"],
+      "url": "https://github.com/kertifyNu/react-frontend-dev-portfolio",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-nodejs-plain", "name": "Node.js" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "فری لانس",
+      "title": "ایمیزون ویب سروسز ڈیولپر",
+      "years": "2024 - 2025",
+      "mainTech": ["AWS"],
+      "technologies": ["CloudFormation", "S3", "EC2", "VPC", "IAM", "RDS"]
+    },
+    {
+      "company": "خود سے کیے گئے منصوبے",
+      "title": "فُل اسٹیک ڈیولپر",
+      "years": "2023 - 2024",
+      "mainTech": ["React", "Node.js"],
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "REST API",
+        "GitHub",
+        "Vite",
+        "Bootstrap"
+      ]
+    },
+    {
+      "company": "تعلیمی منصوبے",
+      "title": "پروجیکٹ میں تعاون کرنے والا",
+      "years": "2022 - 2023",
+      "mainTech": ["JavaScript", "HTML/CSS"],
+      "technologies": ["React", "jQuery", "Node.js", "C++", "Firebase"]
+    }
+  ]
+}
