@@ -14,20 +14,20 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - React
 - JavaScript (ES6+)
 - HTML5 & CSS3
-- TailwindCSS / Styled Components (if applicable)
+- TailwindCSS
 - Git & GitHub
 
 ## Projects
 
 Here are some of the projects featured in this portfolio:
 
-1. **[Project Name]**  
-   Description: Brief description of the project.  
+1. **Song Score**  
+   Description: Spotify integrated song guesser.  
    Tech Stack: React, [Other Technologies]  
    [Live Demo](#) | [Source Code](#)
 
-2. **[Project Name]**  
-   Description: Brief description of the project.  
+2. **P2P chat bot**  
+   Description: peer to peer chat bot 
    Tech Stack: React, [Other Technologies]  
    [Live Demo](#) | [Source Code](#)
 
