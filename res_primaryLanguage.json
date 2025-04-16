@@ -1,0 +1,82 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Hassan. I build full-stack apps using modern frameworks like React, Node.js, and Vite. This is my developer portfolio, showcasing personal and collaborative projects. Feel free to explore and ⭐ the ones you like!",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "SongScore",
+      "startDate": "2024",
+      "description": "A full-stack music rating and guessing app where users can guess others ratings for songs. Built with React and Node.js.",
+      "images": ["images/portfolio/song-score/p1.png"],
+      "url": "https://github.com/kertifyNu/SongScore",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-nodejs-plain", "name": "Node.js" },
+        { "class": "devicon-mongodb-plain", "name": "MongoDB" }
+      ]
+    },
+    {
+      "title": "Planit: Dashboard",
+      "startDate": "2024",
+      "description": "Full fledged dashboard for organizations like aiesec, using React, Express and MongoDB.",
+      "images": ["images/portfolio/planit/p1.png"],
+      "url": "#",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React" },
+
+        { "class": "devicon-nodejs-plain", "name": "Node.js" },
+        { "class": "devicon-express-original", "name": "Express" },
+        { "class": "devicon-mongodb-plain", "name": "MongoDB" }
+      ]
+    },
+    {
+      "title": "P2P chatbox and file sharing",
+      "startDate": "2024",
+      "description": "A peer-to-peer chatbox and file sharing app built with React and Node.js (peer.js and socket.io).",
+      "images": ["images/portfolio/p2p-chat/p1.jpg"],
+
+      "url": "https://github.com/kertifyNu/react-frontend-dev-portfolio",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React" },
+        { "class": "devicon-nodejs-plain", "name": "Node.js" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "freelance",
+      "title": "Amazon Web Services Developer",
+      "years": "2024 - 2025",
+      "mainTech": ["AWS"],
+      "technologies": ["CloudFormation", "S3", "EC2", "VPC", "IAM", "RDS"]
+    },
+    {
+      "company": "Self-Driven Projects",
+      "title": "Full Stack Developer",
+      "years": "2023 - 2024",
+      "mainTech": ["React", "Node.js"],
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "REST API",
+        "GitHub",
+        "Vite",
+        "Bootstrap"
+      ]
+    },
+    {
+      "company": "Academic Projects",
+      "title": "Project Contributor",
+      "years": "2022 - 2023",
+      "mainTech": ["JavaScript", "HTML/CSS"],
+      "technologies": ["React", "jQuery", "Node.js", "C++", "Firebase"]
+    }
+  ]
+}
